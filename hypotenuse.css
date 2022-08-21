@@ -1,0 +1,91 @@
+body {
+    background: url("triangle.webp");
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    background-attachment: fixed;
+    text-align: center;
+    /* position: relative; */
+    /* text-align: center;
+    background-position: center; */
+}
+
+h1,
+p {
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+}
+
+small {
+    font-weight: lighter;
+}
+
+h1 {
+    /* padding: 1rem 1rem; */
+}
+
+input,
+label {
+    display: block;
+    text-align: center;
+}
+
+input:hover {
+    background-color:
+        #cbd5e1;
+}
+
+input {
+    display: block;
+    width: 30%;
+    height: 3vh;
+    max-width: 600px;
+    margin: auto;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    background-color: transparent;
+}
+
+#hypotenuse-btn {
+    font-family: 'Fugaz One', cursive;
+    display: block;
+    margin: auto;
+    background: transparent;
+    color:#be123c;
+    border-color:#be123c;
+    border-width: thick;
+    padding: 0.6rem 1rem;
+    border-radius: 0.7rem;
+    text-shadow: 0 0 5px white, 0 0 1px white;
+}
+
+#hypotenuse-btn:hover {
+    background-color: #cbd5e1;
+}
+
+#output {
+    animation-name: slidein;
+    animation-duration: 1s;
+    text-align: center;
+    text-shadow: 0 0 5px white, 0 0 1px white;
+    color:#be123c;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+#output-message:hover {
+    color: #d946ef;
+}

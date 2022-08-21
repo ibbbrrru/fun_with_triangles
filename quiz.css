@@ -1,0 +1,52 @@
+body {
+    background: url("triangle.webp");
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    background-attachment: fixed;
+    text-align: center;
+    /* position: relative; */
+    /* text-align: center;
+    background-position: center; */
+}
+.question-container{
+    text-align: left;
+}
+#submit-answer-btn {
+    font-family: 'Fugaz One', cursive;
+    display: block;
+    margin: auto;
+    background: transparent;
+    color:#be123c;
+    border-color:#be123c;
+    border-width: thick;
+    padding: 0.6rem 1rem;
+    border-radius: 0.7rem;
+    text-shadow: 0 0 5px white, 0 0 1px white;
+}
+
+#submit-answer-btn:hover {
+    background-color: #cbd5e1;
+}
+
+#output {
+    animation-name: slidein;
+    animation-duration: 1s;
+    text-align: center;
+    text-shadow: 0 0 5px white, 0 0 1px white;
+    color:#be123c;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
